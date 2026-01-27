@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 
 # Load sensor data
 df = pd.read_csv("iot_data.csv")
+from sklearn.ensemble import IsolationForest
+
+# Run anomaly detection
+model = IsolationForest(contamination=0.1, random_state=42)
+df["Anomaly"] = model.fit_predict(df[["Temperature", "Humidity"]])
 
 st.title("IoT Data Simulation + AI Analysis")
 
@@ -31,3 +36,4 @@ ax.set_ylabel("Temperature")
 ax.legend()
 
 st.pyplot(fig)
+
