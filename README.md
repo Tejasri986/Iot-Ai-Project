@@ -38,6 +38,8 @@ This project simulates IoT sensor data (temperature & humidity), applies AI-base
 - cd IoT-AI-Project
 3. Run the Streamlit app
 - streamlit run app.py
-   
+
+EXAMPLE OUTPUT :
+      ![Dashboard Screenshot](dashboard.png)
 
 
