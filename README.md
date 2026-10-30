@@ -33,7 +33,7 @@ This project simulates IoT sensor data (temperature & humidity), applies AI-base
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/IoT-AI-Project.git
+   git clone https://github.com/Tejasri986/Iot-Ai-Project.git
 2. Navigate to the folder:
 - cd IoT-AI-Project
 3. Run the Streamlit app
