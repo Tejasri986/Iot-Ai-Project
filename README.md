@@ -39,6 +39,16 @@ This project simulates IoT sensor data (temperature & humidity), applies AI-base
 3. Run the Streamlit app
 - streamlit run app.py
 
+📦 Installation
+
+1. Install Python 3.10 or later.
+2. Install the required libraries:
+
+pip install streamlit pandas matplotlib scikit-learn
+
+3. Run the application:
+
+streamlit run app.py
 
 
 
