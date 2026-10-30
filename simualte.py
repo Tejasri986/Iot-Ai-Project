@@ -1,5 +1,6 @@
 import random
 import pandas as pd
+random.seed(42)
 
 # Create empty list to store data
 data = []
