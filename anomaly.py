@@ -16,3 +16,7 @@ print(df.head(10))
 
 # Count anomalies
 print("Number of anomalies detected:", list(df["Anomaly"]).count(-1))
+# Save results to a new CSV file
+df.to_csv("anomaly_results.csv", index=False)
+
+print("Results saved to anomaly_results.csv")
