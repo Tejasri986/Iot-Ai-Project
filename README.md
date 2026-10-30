@@ -15,7 +15,7 @@ This project simulates IoT sensor data (temperature & humidity), applies AI-base
 - Libraries: NumPy, Pandas, Matplotlib, Scikit-learn, Streamlit  
 
 ## 📂 Files
-- `simulate.py` → Generates sensor data and saves to `iot_data.csv`.  
+- `simualte.py` → Generates sensor data and saves to `iot_data.csv`.  
 - `visualize.py` → Plots temperature & humidity trends.  
 - `anomaly.py` → Detects anomalies using AI.  
 - `app.py` → Streamlit dashboard for interactive visualization.  
