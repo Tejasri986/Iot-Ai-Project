@@ -23,6 +23,8 @@ st.line_chart(df[["Temperature", "Humidity"]])
 # Anomaly detection results
 st.subheader("Anomaly Detection")
 st.write("Number of anomalies detected:", list(df["Anomaly"]).count(-1))
+st.subheader("Detected Anomalies")
+st.write(df[df["Anomaly"] == -1])
 
 # Highlight anomalies in red
 fig, ax = plt.subplots()
